@@ -41,4 +41,4 @@ FRONTEND:
 The frontend of the project is built using React, providing a clean and interactive user interface that lets users input house details and get instant price predictions powered by the FastAPI backend.
    ![frontend](ML_Model/housepred2.png)                                                                                                                                             
 Finallize model:                                                                                                                                                                                                   
- ![frontend](ML_Model/Screen-Recording.mp4)
+[![Watch the demo](ML_Model/housepred.png)](ML_Model/Screen-Recording.mp4)
