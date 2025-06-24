@@ -21,22 +21,24 @@ TOOLS AND LIBARIES:
 
 
 
-DATA COLLECRTION:
+DATA COLLECRTION:                                                                                                                                                                                
 For  this project the house price datasets was collected using webscraping technique from site using Beautifulsoup, a powerful python libary for extracting from HTML and XML files. I targeted a popular house selling website of Nepal that provide properties listing include price, area, bhk location and other attribute . After scrapimg data I saved them in CSV file.
 ![EDA](ML_Model/housepred4.png)
-EDA:
+EDA:                                                                                                                                       
 Before feeding data to ml model  conducted the dat acleaning processing and visullization using python popular libaries.
    ![EDA](ML_Model/housepred5.png)
    
   
- mlwork flow
- ![Mlwork](ML_Model/Working_of_RF_1.png)
+ ML WORKFLOW                                                                                                                                                                      
+ ![Mlwork](ML_Model/Working_of_RF_1.png)                                                                                                                  
+ REgressor:                                                                                                                                          
+   ![Mlwork](ML_Model/housepred6.png)                                                                                                                                                                        
 
-MODEL DEPLOYMENT:
+MODEL DEPLOYMENT:                                                                                                                                                                                                                           
 FastAPI is used as the backend framework in this project to serve the trained machine learning model. It provides a high-performance, easy-to-use interface for communicating between the ML model and the frontend.
-  ![backend](ML_Model/housepred3.png)
-FRONTEND:
+  ![backend](ML_Model/housepred3.png)                                                                                                                                                                                             
+FRONTEND:                                                                                                                                                                                                                                                               
 The frontend of the project is built using React, providing a clean and interactive user interface that lets users input house details and get instant price predictions powered by the FastAPI backend.
-   ![frontend](ML_Model/housepred2.png)
-Finallize model:
+   ![frontend](ML_Model/housepred2.png)                                                                                                                                             
+Finallize model:                                                                                                                                                                                                   
  ![frontend](ML_Model/housepred.png)
