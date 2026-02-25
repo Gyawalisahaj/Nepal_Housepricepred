@@ -21,7 +21,7 @@ train_columns = joblib.load('train_columns.pkl')
 
 @app.get("/")
 def root():
-    return {"message": "Hello World"}
+    return {"message": "Online Property Price Prediction API"}
 
 def preprocess_input(data: dict):
     input_df = pd.DataFrame([data])
